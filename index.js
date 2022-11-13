@@ -14,6 +14,7 @@ var connection = mysql.createConnection({
     try {
         var db = await connection.connect()
         console.log("db connected successfully");
+        console.log("db successfully connected...");
     } catch (error) {
         console.log("DB connection failed.");
     }  
